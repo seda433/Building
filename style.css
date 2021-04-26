@@ -1,0 +1,611 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding-left: unset;
+    padding-right: unset;
+}
+.container-fluid .cover-container {
+    min-height:100%;
+    background: linear-gradient(0deg, rgba(65, 65, 65, 0.82), rgba(65, 65, 65, 0.82)), url("main_bg.svg");
+    background-size:cover;
+    min-height: 824px;
+}
+.navbar-dark .navbar-toggler {
+    border: none;
+    color: transparent;
+}
+.container-fluid .navbar-brand {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35.16px;
+}
+.navbar-dark .nav-item .nav-link {
+    color: white;
+    padding-right: 3em;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
+.navbar-dark .nav-item .nav-link .underlined {
+    color: #FF0000;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration-line: underline;
+}
+.container-fluid .container {
+    padding-bottom: 8%;
+}
+.container-fluid .container h1 {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 67px;
+    line-height: 79px;
+}
+.container-fluid .container .red {
+    color: #FF0000;
+}
+.container-fluid .container .btn {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23.6598px;
+    line-height: 28px;
+    background: #FF0000;
+    box-shadow: 3.9433px 5.25773px 18.4021px rgba(228, 16, 16, 0.2);
+    border-radius: 98.5825px;
+    height: 73.61px;
+    color: white;
+    width: 255px;
+}
+.container .row .description {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: right;
+}
+.container .row .col-md-6 img {
+    max-width: 450px;
+}
+.cards {
+    background-color: #414141;
+}
+.cards .card {
+    background-color: transparent;
+    align-items: center;
+    border: none;
+}
+.cards .circle {
+    width: 136px;
+    height: 136px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    
+}
+.cards .circle img {
+    width: 75%;
+    
+}
+.cards h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.cards .card-title, .card-body {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+}
+.container .col-lg-7 p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+.container .title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.card2 .card-text {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+
+}
+.card2 .card {
+    border: none;
+}
+.card2 h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.card2 .card-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+}
+.forms {
+    background-color: #F4F4F4;
+}
+
+.forms .form-control{
+    height: 57px;
+    border-radius: 14px;
+}
+.forms .title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+}
+.forms .form-text {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 30px;
+
+color: #000000;
+}
+.forms .small {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+.forms strong {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 54px;
+    text-align: center;
+    color: #000000;
+}
+
+.number .card {
+    border: none;
+}
+.number .arrow {
+    visibility: hidden;
+} 
+.element {
+    display: inline-block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #181F33;
+    float: left;
+    position: relative;
+    text-align: left;
+}
+  
+  .x1 {
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 295px;
+    line-height: 360px;
+    color: rgba(255, 0, 0, 0.23);
+    display: flex;
+    justify-content: start;
+    top: -40px;
+  }
+.title h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.cover-container {
+    min-height: 100%;
+    background-size: cover;
+    background-image: url(img2.svg);
+    min-height: 800px;
+}
+.cover-container .title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+}
+.cover-container .col-md-6 {
+    margin-top: 15%;
+}
+.cover-container .text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+}
+.carousel-indicators {
+    margin-bottom: -3rem;
+    margin-right: -5%;
+    height: 30px;
+    border-radius: 50%;
+}
+.carousel-indicators [data-bs-target] {
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px red solid;
+   
+}
+#carouselExampleIndicators {
+    padding-left: 200px;
+}
+.carousel-indicators .active {
+    opacity: unset;
+    background-color: #FF0000;
+}
+.carousel-control-next {
+    margin-right: -100px;
+    opacity: unset;
+}
+.carousel-control-prev {
+    margin-left: 80px;
+    opacity: unset;
+}
+.container .slider-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: left;
+    color: #000000;
+}
+.carousel-control-prev-icon {
+    /* margin-left: 80px; */
+    
+    background-image: url("prev_arrow.svg");
+    background-repeat: no-repeat;
+}
+.carousel-control-next-icon {
+    background-image: url("next_arrow.svg");
+}
+.about {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 30px;
+
+color: #000000;
+}
+.questions .red {
+    font-weight: 900;
+    color: #FF0000;
+    
+}
+.send .col-lg-6 {
+    margin-top: 5%;
+}
+.send .col-lg-6 strong {
+    font-weight: 900;
+}
+.send .btn {
+    background: linear-gradient(180deg, #FF0000 0%, #D00000 100%), #FF0000;
+box-shadow: 3px 4px 14px rgba(228, 16, 16, 0.2), 0px 4px 14px rgba(139, 90, 0, 0.15);
+border-radius: 75px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.forms .btn {
+    background: linear-gradient(180deg, #FF0000 0%, #D00000 100%), #FF0000;
+box-shadow: 3px 4px 14px rgba(228, 16, 16, 0.2), 0px 4px 14px rgba(139, 90, 0, 0.15);
+border-radius: 75px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+height: 56px;
+color: #FFFFFF;
+}
+.send .form-control {
+    border: none;
+    border-bottom: 1px solid #414141;
+    background-color: transparent;
+}
+.send .col-lg-6 p {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 28px;
+
+/* text 2 */
+
+color: #414141;
+}
+.send {
+    min-height: 390px;
+    background-image: url("bg2.svg");
+    background-size: cover;
+}
+.send span.str {
+    font-weight: 800;
+}
+.send p.phone {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #414141;
+}
+.footer-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 47px;
+    text-transform: capitalize;
+    color: #000000;
+    text-align: start;
+}
+.footer-small-strong {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #414141;
+    text-align: start;
+}
+.footer-small {
+    font-weight: 300;
+}
+.card2 img {
+    width: 50%;
+}
+@media (max-width: 991.98px) {
+    .container .col-lg-5 {
+        display: flex;
+        justify-content: center;
+    }
+    .cover-container .title {
+        font-size: 20px;
+    }
+    .cover-container .text {
+        font-size: 20px;
+    }
+    .cover-container .col-md-6 {
+        margin-top: 30%;
+    }
+}
+@media (max-width: 767.98px) {
+    .number .arrow {
+        visibility: visible;
+    } 
+    .cover-container .col-md-6 {
+        padding-bottom: 20%;
+    }
+    .carousel-indicators [data-bs-target] {
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        background-color: white;
+        border: 1px red solid;
+       
+    }
+    #carouselExampleIndicators {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .row {
+        width: 100%;
+    }
+    .carousel-indicators .active {
+        opacity: unset;
+        background-color: #FF0000;
+    }
+    .carousel-indicators {
+        margin-right: 0%;
+    }
+    .carousel-control-next {
+        margin-right: 6%;
+    }
+    .carousel-control-prev {
+        margin-left: 6%;
+    }
+    /* .carousel-control-next {
+        width: 90%;
+    }
+    .carousel-control-prev {
+        width: 90%;
+    } */
+    .carousel-indicators {
+        margin-bottom: -2rem;
+        margin-left: -5%;
+        height: 30px;
+        width: 100%;
+        border-radius: 50%;
+    }
+    .send .cent {
+        margin-top: 5%;
+        margin-bottom: -20%;
+        display: flex;
+        justify-content: center;
+    }
+    .container-fluid .container h1 {
+        font-size: 20px;
+        line-height: 40px;
+        text-align: center;
+        align-items: center;
+    }
+    .forms strong {
+        font-size: 28px;
+    }
+    .about img {
+        width: 100%;
+    }
+    .room img {
+        width: 100%;
+    }
+    .see_also img {
+        width: 100%;
+    }
+    .container-fluid .container .btn {
+        font-size: 15px;
+        line-height: 28px;
+        height: 60px;
+        width: 180px;
+    }
+    .container-fluid .cover-container {
+        min-height: 500px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .send .btn {
+        width: 40%;
+        height: 50px;
+    }
+    .cover-container {
+        width: 100%;
+    }
+    .nav-item img {
+        width: 10%;
+    }
+    .navbar-dark .nav-item .nav-link {
+        padding-right: 3em;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .navbar-dark .nav-item .nav-link .underlined {
+        color: #FF0000;
+        font-size: 14px;
+        line-height: 21px;
+        text-decoration-line: underline;
+    }
+    .container .row .description {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+
+    .cards h3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .cards .card-title, .card-body {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .container .col-lg-7 p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .container .title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .card2 .card-text {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .forms .form-text {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .forms .small {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .element {
+        font-size: 20px;
+        line-height: 30px;
+    }
+      
+      .x1 {
+        font-size: 240px;
+        line-height: 360px;
+      }
+    .title h4 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .about {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .footer-title {
+        font-size: 28px;
+        line-height: 15px;
+    }
+    .col-md-4 .slider-text {
+        font-size: 22px;
+    }
+    .card2 img {
+        width: 30%;
+    }
+    .row>* {
+        padding-right: unset;
+    }
+}
